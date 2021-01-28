@@ -1,0 +1,27 @@
+{
+  "name": "@blokwise/icons",
+  "version": "1.0.0",
+  "description": "Some awesome SVG icons for nuxt projects",
+  "repository": "blokwise/icons",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/index.js",
+    "src/components/**/*.vue"
+  ],
+  "scripts": {},
+  "keywords": [
+    "nuxtjs",
+    "nuxt/components",
+    "icons"
+  ],
+  "author": "Julian Derungs <julian.derungs@primesystems.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "consola": "^2.15.0"
+  },
+  "devDependencies": {}
+}
