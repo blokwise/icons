@@ -2,7 +2,8 @@ import { join } from "path";
 import consola from "consola";
 
 export default async function iconsModule({
-  prefix = "",
+  prefix = "icon",
+  pathPrefix = false,
   withConsole = false,
 } = {}) {
   const logger = consola.withScope("@blokwise/icons");
@@ -11,6 +12,7 @@ export default async function iconsModule({
     dirs.push({
       path: join(__dirname, "components"),
       pattern: "**/*.vue",
+      pathPrefix,
       prefix,
     });
   });
