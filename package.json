@@ -1,6 +1,6 @@
 {
   "name": "@blokwise/icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Some awesome SVG icons for nuxt projects",
   "repository": "blokwise/icons",
   "publishConfig": {
